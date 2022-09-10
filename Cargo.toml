@@ -1,0 +1,13 @@
+[package]
+name = "glfw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glfw-sys = { path = "glfw-sys", version = "0.1.0" }
+
+[features]
+vendored-glfw = [ "glfw-sys/vendored" ]
+
+[workspace]
+members = [ 'glfw-sys' ]

@@ -1,0 +1,17 @@
+[package]
+name = "glfw-sys"
+version = "0.1.0+3.3.8"
+edition = "2021"
+build = "build.rs"
+
+[lib]
+name = "glfw_sys"
+path = "lib.rs"
+
+[build-dependencies]
+pkg-config = "0.3"
+
+[dependencies]
+
+[features]
+vendored = []
